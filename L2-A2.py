@@ -7,3 +7,9 @@ plt.plot(x, y1, 'b', linewidth = 3, label = 'y=2x+1')
 plt.plot(x, y2, 'g', linewidth = 3, label = 'yx^2+2')
 plt.legend()
 plt.show()
+
+# Extra
+x0 = np.arange(-1, 1, 0.2)
+y = (x0**3)
+plt.plot(x0, y,'r', linewidth = 3)
+plt.show()
