@@ -1,0 +1,20 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib import colors
+from matplotlib.ticker import PercentFormatter
+
+# Creating dataset
+np.random.seed(23685752)
+n_points = 10000
+n_bins = 20
+
+# Creating distribution
+x = np.random.randn(n_points)
+y = .8 ** x + np.random.randn(10000) + 25
+
+# Creating hostogram
+fig, axs = plt.subplots(1, 1,
+                        figsize=(6, 5),
+                        tight_layout = True)
+axs.hist(x, bins = n_bins)
+plt.show()
