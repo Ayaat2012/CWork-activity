@@ -8,7 +8,7 @@ y1 = [21, 46, 3, 35, 67, 95, 53, 72, 58, 10]
 x2 = [26, 29, 48, 64, 6, 5, 36, 66, 72, 40]
 y2 = [26, 34, 90, 33, 38, 20, 56, 2, 47, 15]
 
-plt.scatter(x1, y1, c = "pink", linewidth = 2, marker = "s", edgecolor = "red", s = 50)
+plt.scatter(x1, y1, c = "pink", linewidth = 2, marker = "s", edgecolor = "red", s = 80)
 plt.scatter(x2, y2, c = "yellow", linewidth = 2, marker = "^", edgecolor = "orange", s = 200)
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
